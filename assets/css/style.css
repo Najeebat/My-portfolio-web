@@ -98,6 +98,12 @@ header {
       z-index: 100;
   }
 
+  @media (max-width: 991px){
+   .navbar{
+    font-size: 30px;
+   }
+  }
+
   /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -133,15 +139,20 @@ main{
 
 @media (max-width: 991px) {
 
+  .sub-main{
+    flex-direction: column-reverse;
+  }
+
   .about-text{
     margin-left: -40px;
   }
   .about-img img{
     height: 50vh !important;
+    border:5px dashed #0074E4;
   }
 
   .about-text p{
-    display: block;
+    width: 18rem;
     font-size: 16px;
     font-weight: lighter;
     font-family: 'Manrope', sans-serif;
@@ -193,19 +204,53 @@ main{
     background-color: #124265;
   }
 
-  @media (max-width: 991px){
+  @media (max-width: 991px) {
+    .skills .progress {
+      height: 60px;
+      display: block;
+      background: none;
+      width:400px;
+      margin-bottom: 15px;
+    }
+  
+    .skills .progress .skill {
+      padding: 8px 0;
+      font-size: 14px;
+      width: 80%;
+    }
+  
+    .skills .progress .skill .val {
+      float: right;
+      display: block;
+      text-align: right;
+      margin-top: 8px;
+    
+    }
+  
+    .skills .progress-bar-wrap {
+      background: rgba(255, 255, 255, 0.2) !important;
+    }
+  
+    .skills .progress-bar {
+      height: 15px;
+      background-color: #124265 !important;
+      width: 80%;
+    }
+  }
+
+  /* @media (max-width: 767px){
     .skills .progress {
       height: 60px;
       display: block;
       background: none;
       border-radius: 10px;
-      width:500px;
+      width:400px;
     }
 
     .skills .progress-bar{
       width: 100%;
     }
-  }
+  } */
 
  /*--------------------------------------------------------------
 # service
@@ -289,6 +334,12 @@ main{
     color: #fff;
   }
   
+  @media (max-width: 991px){
+    .services .icon-box{
+      width: 80%;
+      margin: auto;
+    }
+  }
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -447,8 +498,41 @@ main{
     right: 15px;
   }
 
-
-
+  @media (max-width: 991px) {
+    .portfolio #portfolio-flters li {
+      font-size: 12px;
+      padding: 8px 12px;
+    }
+  
+    .portfolio .portfolio-wrap::before {
+      left: 15px;
+      right: 15px;
+      top: 15px;
+      bottom: 15px;
+    }
+  
+    .portfolio .portfolio-wrap .portfolio-info::before {
+      top: 20px;
+      left: 20px;
+    }
+  
+    .portfolio .portfolio-wrap .portfolio-info::after {
+      bottom: 20px;
+      right: 20px;
+    }
+  
+    .portfolio .portfolio-wrap .portfolio-info h4 {
+      font-size: 18px;
+    }
+  
+    .portfolio .portfolio-wrap .portfolio-info p {
+      font-size: 12px;
+    }
+  
+    .portfolio .portfolio-wrap .portfolio-links a {
+      font-size: 20px;
+    }
+  }
   
 /*--------------------------------------------------------------
 # Portfolio Details
