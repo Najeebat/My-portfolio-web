@@ -123,7 +123,7 @@ header {
 }
 
 main{
-  background: linear-gradient(rgba(255, 255, 255, 0.728), rgba(255, 255, 255, 0.728)), url('/assets/img/portfolio/bootstrap-bg.jpg') !important;
+  background: linear-gradient(rgba(255, 255, 255, 0.728), rgba(255, 255, 255, 0.728)), url('../img/portfolio/bootstrap-bg.jpg') !important;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -144,11 +144,12 @@ main{
   }
 
   .about-text{
-    margin-left: -40px;
+    margin-left: 30px;
   }
   .about-img img{
     height: 50vh !important;
-    border:5px dashed #0074E4;
+    background-color: #444444;
+    
   }
 
   .about-text p{
@@ -216,6 +217,7 @@ main{
       padding: 8px 0;
       font-size: 14px;
       width: 80%;
+      margin: auto;
     }
   
     .skills .progress .skill .val {
@@ -234,6 +236,7 @@ main{
       height: 15px;
       background-color: #124265 !important;
       width: 80%;
+      margin: auto;
     }
   }
 
@@ -721,7 +724,7 @@ main{
   
   .contact .php-email-form input::-moz-placeholder,
   .contact .php-email-form textarea::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.3);
+    color:#303030;
     opacity: 1;
   }
   
@@ -791,7 +794,7 @@ main{
     color: #fff;
   }
 
-@media screen and (max-width: 425px){
+/* @media screen and (max-width: 425px){
     .about-img img{
         height: 350px !important;
         width: 250px !important;
@@ -820,4 +823,4 @@ margin: auto;
         padding: auto;
         display: flex;
     }
-}
+} */
