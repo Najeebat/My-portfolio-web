@@ -1,0 +1,120 @@
+/* swipper styling */
+.green-cta-btn {
+    font-family: 'Manrope', sans-serif !important;
+    font-weight: 700;
+     font-size: 16px;
+     background-color: #18d26e !important;
+     color: #fff !important;
+     border: none !important;
+     cursor: pointer;
+     transition: background-color 1s ease-in-out !important;
+     padding: 12px 20px 12px 20px !important;
+   }
+  
+
+.carousel-container{
+    display: flex;
+  }
+  
+  .carousel-container .left{
+    width: 55%;
+  }
+  
+  .carousel-container .right{
+    width: 45%;
+  }
+  
+  
+  .carousel{
+    width: 100%;
+  }
+  
+  .carousel-item{
+    height: 100vh;
+    width: 100% !important;
+  }
+  .carousel-item img{
+    width: 90% !important;
+    margin: auto;
+    margin-top: 80px;
+  }
+  
+  .pro-details li{
+    list-style: none !important;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    padding: 5px;
+  }
+  
+  .pro-details li strong{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    padding: 5px;
+    margin-left: -40px;
+  }
+  
+  .carousel-item .img1{
+    width: 90% !important;
+    height: 70vh;
+    margin: auto;
+    margin-top: 80px;
+  }
+
+  .carousel-item .img3{
+    width: 90% !important;
+    height: 70vh;
+    margin: auto;
+    margin-top: 80px;
+  }
+   
+  @media (max-width: 992px) {
+    .carousel-container{
+      flex-direction: column;
+    }
+  
+    .carousel-container .left{
+      width: 100%;
+      height: auto;
+    }
+  
+    .carousel-container .right{
+      width: 100%;
+      height: auto;
+    }
+  
+    .carousel{
+      width: 100% !important;
+    }
+  
+    .carousel-item{
+      height: 50vh;
+      width: 100% !important;
+    }
+  
+    .carousel-item img{
+      height: 30vh;
+    }
+  
+    .project-summary p{
+      font-size: 18px;
+      width: 80%;
+      margin: auto;
+    }
+  
+    .project-summary h3{
+      width: 80%;
+      margin: auto;
+      padding-bottom:15px ;
+    }
+  
+    .project-information{
+      width: 80%;
+      margin: auto;
+      margin-top: -50px;
+      margin-top: 20px;
+    }
+  
+    .resume-btn {
+      margin-bottom: 20px;
+    }
+  }

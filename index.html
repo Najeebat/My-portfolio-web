@@ -26,6 +26,12 @@
      <!-- Vendor CSS Files -->
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
+  <!-- swipper js -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
     
 </head>
 <body>
@@ -81,7 +87,7 @@
             <div class="about-img " >
                  <img src="assets/img/portfolio/port-img.png" alt="" class="img-fluid" >
            </div>
-    <div class="about-text d-flex justify-content-center align-item-center flex-column" style="  font-family: 'Playfair Display', serif;">
+    <div class="about-text d-flex justify-content-center align-item-center flex-column" >
            <h2>Hello! I'm</h2>
             <span>ISHOLA NAJEEBAT</span>
            <p style=" font-family: 'Manrope', sans-serif;">
@@ -100,12 +106,12 @@
 </main> <!-- End About -->
 
      <!-- skills -->
-     <div class="container skill-container" style="margin-top: 130px;">
+     <div class="container skill-container" >
      <div class="skills container">
 
       <div class="section-title">
         <h2>Skill</h2>
-        <p style=" font-family: 'Manrope', sans-serif; font-weight: 700;">My Skill</p>
+        <p>My Skill</p>
       </div>
       <div class=" d-flex justify-content-center skills-content">
 
@@ -143,7 +149,7 @@
 
       <div class="section-title ">
         <h2>Service</h2>
-        <p style=" font-family: 'Manrope', sans-serif; font-weight: 700;">My Service</p>
+        <p>My Service</p>
       </div>
 
       <div class="row">
@@ -218,7 +224,7 @@
 
       <div class="section-title">
         <h2>Portfolio</h2>
-        <p style=" font-family: 'Manrope', sans-serif; font-weight: 700;">My Works</p>
+        <p>My Works</p>
       </div>
 
       <div class="row ">
@@ -234,10 +240,10 @@
 
       <div id="gallery-container" class="row portfolio-container ">
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/simple-quize-game.png" class="img-fluid" alt="" style="height: 43vh;">
+          <div class="portfolio-wrap shadow">
+            <img src="assets/img/portfolio/simple-quize-game.png" class="img-fluid portfolio-1" alt="">
             <div class="portfolio-info">
-              <h4>App 1</h4>
+              <h4>Web 1</h4>
               <p>App</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/simple-quize-game.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
@@ -248,35 +254,35 @@
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+          <div class="portfolio-wrap shadow">
+            <img src="assets/img/portfolio/estate-project.png" class="img-fluid portfolio-1" alt="">
             <div class="portfolio-info">
               <h4>Web 3</h4>
               <p>Web</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bi bi-link-45deg"></i></a>
+                <a href="assets/img/portfolio/estate-project.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details2.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+          <div class="portfolio-wrap shadow">
+            <img src="assets/img/portfolio/fin-web.png" class="img-fluid portfolio-1" alt="">
             <div class="portfolio-info">
               <h4>App 2</h4>
               <p>App</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bi bi-link-45deg"></i></a>
+                <a href="assets/img/portfolio/fin-web.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
+                <a href="portfolio-details3.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
+          <div class="portfolio-wrap shadow">
             <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Card 2</h4>
@@ -290,40 +296,41 @@
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
+          <div class="portfolio-wrap shadow">
             <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Web 2</h4>
               <p>Web</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bi bi-link-45deg"></i></a>
+                <a href="portfolio-details2.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
+          <div class="portfolio-wrap shadow">
             <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>App 3</h4>
               <p>App</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bi bi-plus"></i></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bi bi-link-45deg"></i></a>
+                <a href="portfolio-details3.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
+          <div class="portfolio-wrap shadow">
             <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Card 1</h4>
               <p>Card</p>
               <div class="portfolio-links">
+           
                 <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
                 <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bi bi-link-45deg"></i></a>
               </div>
@@ -331,29 +338,29 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card ">
+          <div class="portfolio-wrap shadow">
             <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Card 3</h4>
               <p>Card</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bi bi-link-45deg"></i></a>
+                <a href="portfolio-details2.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web ">
+          <div class="portfolio-wrap shadow">
             <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Web 3</h4>
               <p>Web</p>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bi bi-link-45deg"></i></a>
+                <a href="portfolio-details3.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div>
@@ -368,11 +375,10 @@
 
  <!-- ======= Contact Section ======= -->
  <section id="contact-me" class="contact">
-  <div class="container" style="margin-top: 130px;">
+  <div class="container mt-5 pt-5" >
 
     <div class="section-title ">
       <h2>Contact</h2>
-      <p style=" font-family: 'Manrope', sans-serif; font-weight: 700;">Contact Me</p>
     </div>
 
     <div class="row mt-2">
@@ -381,7 +387,7 @@
         <div class="info-box bg-white shadow">
           <i class="bi bi-geo-alt-fill"></i>
           <h3>My Address</h3>
-          <p style=" font-family: 'Manrope', sans-serif; font-weight: 700;">No 74, kunmantaka, Greenland estate, Kano state</p>
+          <p >No 74, kunmantaka, Greenland estate, Kano state</p>
         </div>
       </div>
 
@@ -402,19 +408,19 @@
         <div class="info-box bg-white shadow">
           <i class="bi bi-envelope-arrow-up-fill"></i>
           <h3>Email Me</h3>
-          <p style=" font-family: 'Manrope', sans-serif; font-weight: 700;">isholanajeebat@gmail.com</p>
+          <p >isholanajeebat@gmail.com</p>
         </div>
       </div>
       <div class="col-md-6 mt-4 d-flex align-items-stretch">
         <div class="info-box bg-white shadow">
           <i class="bi bi-telephone-forward-fill"></i>
           <h3>Call Me</h3>
-          <p style=" font-family: 'Manrope', sans-serif; font-weight: 700;">+234 9037 6339 65</p>
+          <p>+234 9037 6339 65</p>
         </div>
       </div>
     </div>
 
-    <form action="./forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+    <form action="" method="post" role="form" class="container  php-email-form mt-4">
       <div class="row">
         <div class="col-md-6 form-group">
           <input type="text" name="name" class="form-control bg-white shadow" id="name" placeholder="Your Name" required>
@@ -458,9 +464,13 @@
  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
  <script src="path/to/isotope.pkgd.min.js"></script>
 
+ <!-- swipper js -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 <!-- custom js -->
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="./assets/vendor/swiper.js"></script>
+  <script src="assets/vendor/main.js"></script>
 
 </body>
 </html>
