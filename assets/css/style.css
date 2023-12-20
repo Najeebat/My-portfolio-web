@@ -117,7 +117,7 @@ header {
 }
 
 main{
-    background: linear-gradient(rgba(255, 255, 255, 0.728), rgba(255, 255, 255, 0.728)), url('/assets/img/portfolio/bootstrap-bg.jpg') !important;
+  background: linear-gradient(rgba(255, 255, 255, 0.728), rgba(255, 255, 255, 0.728)), url('/assets/img/portfolio/bootstrap-bg.jpg') !important;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
